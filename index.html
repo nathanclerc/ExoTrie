@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trie</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+	    <div class="nav-wrapper">
+	      <a href="#" class="brand-logo">Trie de groupe</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="#">Aléatoire</a></li>
+	        <li><a href="#">Alphabétique</a></li>
+	        <li><a href="#">Age</a></li>
+	        <li><a href="#">Alphabétique - Age</a></li>
+	      </ul>
+	    </div>
+	</nav>
+	<div>
+		<div class="input-field col s12">
+			<select id="grp">
+				<option selected>Groupe</option>
+				<option value="1">1 groupe</option>
+				<option value="2">2 groupes</option>
+				<option value="3">3 groupes</option>
+				<option value="4">4 groupes</option>
+				<option value="5">5 groupes</option>
+			</select>
+		</div>
+		<div id="nbPers"></div>
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<th>Groupe</th>
+						<th>Nom</th>
+						<th>Prénom</th>
+					</tr>
+				</thead>
+				<tbody id="tab">
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
